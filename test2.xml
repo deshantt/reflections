@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.belajar.WelcomeActivity">
+
+            <TextView
+                android:id="@+id/belajar"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="bottom"
+                android:gravity="center_vertical"
+                android:text="saya belajar menggunakan repository pull push"
+                android:textAppearance="?android:attr/textAppearanceLarge"/>
+</android.support.design.widget.CoordinatorLayout>
